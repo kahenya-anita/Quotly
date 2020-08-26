@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { QuotifyComponent } from './quotify.component';
+import { QuotlyComponent } from './quotly.component';
 
-describe('QuotifyComponent', () => {
-  let component: QuotifyComponent;
-  let fixture: ComponentFixture<QuotifyComponent>;
+describe('QuotlyComponent', () => {
+  let component: QuotlyComponent;
+  let fixture: ComponentFixture<QuotlyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QuotifyComponent ]
+      declarations: [ QuotlyComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(QuotifyComponent);
+    fixture = TestBed.createComponent(QuotlyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

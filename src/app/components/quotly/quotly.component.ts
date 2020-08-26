@@ -7,18 +7,18 @@ import {
 } from '../../models/quote';
 
 @Component({
-  selector: 'app-quotify',
-  templateUrl: './quotify.component.html',
-  styleUrls: ['./quotify.component.css']
+  selector: 'app-quotly',
+  templateUrl: './quotly.component.html',
+  styleUrls: ['./quotly.component.css']
 })
-export class QuotifyComponent implements OnInit {
+export class QuotlyComponent implements OnInit {
 
   quotes: Quote[] = [ /* quote array */
-    new Quote('A friend is someone who knows all about you and still loves you.', 'Elbert Hubbard', 'Lizbeth Wangu', new Date(2020, 1, 5), 5, 0),
-    new Quote('If you can make a woman laugh, you can make her do anything.', 'Marilyn Monroe', 'Lyn Adelaide', new Date(2020, 4, 8), 2, 1),
-    new Quote('I have no notion of loving people by halves, it is not my nature.', 'Jane Austen', 'Edrea Leslie', new Date(2020, 3, 30), 1, 5),
-    new Quote('It is not a lack of love, but a lack of friendship that makes unhappy marriages.', 'Friedrich Nietzsche', 'Charlene Rose', new Date(2019, 9, 11), 1, 1),
-    new Quote('The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.', ' Bob Marley', 'Albert Austen', new Date(2019, 5, 15), 3, 2),
+    new Quote('Life is short make every hair flip count.', 'Girly M', 'Amber Rose Rose', new Date(2020, 1, 5), 5, 0),
+    new Quote('Just when the caterpillar thought her life was over, she began to fly.', 'Bill Cosby', 'Alfred Warui', new Date(2020, 4, 8), 2, 1),
+    new Quote('Its the way her soul dances when he smiles at her .', 'Beth Michele', 'Bliss', new Date(2020, 3, 30), 1, 5),
+    new Quote('I have found a natural drug for all of my panic,anxiety, and anger.It is his voice.It is him.', 'J.R.Rogue', 'The Love Bits', new Date(2019, 9, 11), 1, 1),
+    new Quote('When it comes to social media,there are just times I turn off the world, you know. The times you have to give yourself space to be quite, which means you have got to set those phones down.', 'Austin Oyugi', 'A.W.K', new Date(2019, 5, 15), 3, 2),
   ];
 
   toggleDetails(index) {
