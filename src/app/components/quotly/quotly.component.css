@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-.background{
-  background-image: url('https://pin.it/4sPpthP');    
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
-div.container-fluid {
+.container-fluid {
   padding: 0;
   font-family: 'Lobster', cursive;
 }
@@ -16,15 +9,15 @@ div.container-fluid {
 
 .header {
   /* gives the header a gradient background */
-  background: rgb(2, 0, 36);
+  background: rgb(0,0, 0,.2);
   background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
   color: white;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lobster', cursive;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 80px;
   padding-top: 3%;
 }
 
@@ -36,6 +29,7 @@ h1 {
 
 .row {
   padding: 2%;
+  font-family: 'caveat', cursive;
 }
 
 .blockquote {
