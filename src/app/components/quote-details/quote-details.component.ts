@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import {
   Quote
-} from '../../models/quote';
+} from '../../';
 
 @Component({
   selector: 'app-quote-details',
