@@ -1,4 +1,4 @@
-### QUOTLY
+#### QUOTLY
 
  ## By Anita Kahenya
 
@@ -12,6 +12,8 @@
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Live Page
+
+![Screenshot from 2020-08-27 11-27-41](https://user-images.githubusercontent.com/62019551/91416755-80916600-e858-11ea-8cef-67dd6beeebbf.png)
 
   Visit Quotistic to be inspired or inspire someone  https://kahenya-anita.github.io/Quotly/ .
 
@@ -49,4 +51,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## License
   copyright (c) 2020
-   [MIT LICENSE]
+  [anita-kahenya](https://github.com/kahenya-anita)
