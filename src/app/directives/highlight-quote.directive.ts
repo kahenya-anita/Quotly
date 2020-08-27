@@ -9,7 +9,7 @@ import {
 export class HighlightQuoteDirective {
 
   constructor(private elem: ElementRef) {
-    this.elem.nativeElement.style.background = "rgb(139, 231, 250)";
+    this.elem.nativeElement.style.background = "rgb(64,3,255)";
   }
 
 }

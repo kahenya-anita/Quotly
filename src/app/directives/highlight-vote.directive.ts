@@ -12,7 +12,7 @@ export class HighlightVoteDirective {
   constructor(private elem: ElementRef) {}
 
   @HostListener("click") onClicks() {
-    this.voteColor("rgb(93, 228, 255)")
+    this.voteColor("rgb(183, 0, 255)")
   }
 
   private voteColor(action: string) {
