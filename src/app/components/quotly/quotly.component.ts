@@ -14,12 +14,12 @@ import {
 export class QuotlyComponent implements OnInit {
 
   quotes: Quote[] = [ /* quote array */
-    new Quote('Life is short make every hair flip count.', 'Girly M', 'Amber Rose Rose', new Date(2020, 4, 5), 5, 0),
-    new Quote('Just when the caterpillar thought her life was over, she began to fly.', 'Bill Cosby', 'Alfred Warui', new Date(2020, 4, 8), 2, 1),
+    new Quote('Life is short make every hair flip count.', 'Girly M', 'Amber Rose ', new Date(2020, 4, 5), 7, 0),
+    new Quote('Just when the caterpillar thought her life was over, she began to fly.', 'Bill Cosby', 'Alfred Warui', new Date(2020, 5, 8), 2, 1),
     new Quote('Its the way her soul dances when he smiles at her .', 'Beth Michele', 'Bliss', new Date(2020, 3, 30), 1, 5),
-    new Quote('I have found a natural drug for all of my panic,anxiety, and anger.It is his voice.It is him.', 'J.R.Rogue', 'The Love Bits', new Date(2019, 9, 11), 1, 1),
-    new Quote('When it comes to social media,there are just times I turn off the world, you know. The times you have to give yourself space to be quite, which means you have got to set those phones down.', 'Austin Oyugi', 'A.W.K', new Date(2019, 8, 15), 3, 2),
-    new Quote('Raising kids is a walk in the park ....', 'Jurassic park', 'Myself', new Date(2020, 8, 30), 6, 5 ),
+    new Quote('I have found a natural drug for all of my panic,anxiety, and anger.It is his voice.It is him.', 'J.R.Rogue', 'The Love Bits', new Date(2019, 12, 11), 1, 1),
+    new Quote('When it comes to social media,there are just times I turn off the world, you know. The times you have to give yourself space to be quite, which means you have got to set those phones down.', 'Austin Oyugi', 'A.W.K', new Date(2020, 1, 24), 3, 2),
+    new Quote('Raising kids is a walk in the park ....', 'Jurassic park...', 'Myself', new Date(2020, 7, 30), 6, 5 ),
   ];
 
   toggleDetails(index) {
